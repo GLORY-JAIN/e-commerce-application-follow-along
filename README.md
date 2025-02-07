@@ -98,3 +98,19 @@ Product Form: Built a form to input details like product name, description, pric
 Multiple Image Input: Added functionality for users to upload multiple images for each product.
 
 Dynamic Data: Set up the form to eventually save the product data and display it dynamically on the product homepage.
+
+Milestone 10: Product Schema & Endpoint Creation
+
+In this milestone, I created a Mongoose schema to define the structure for storing product data in MongoDB. The schema includes fields like name, description, price, and image URL, with proper validation to ensure data integrity (e.g., required fields, correct data types).
+
+I also built a POST endpoint that receives product details, validates the input data, and stores it in the database. This ensures that only valid product information is saved, maintaining a clean and reliable database.
+
+Additionally, I explored optional features like creating admin roles for restricted access to product uploads. This milestone strengthens the backend process of handling product data, making it ready for display on the frontend in future milestones.
+
+Milestone 11 🌟
+
+In this milestone, we learned how to display products dynamically on the home page using data stored in MongoDB. We built an endpoint to fetch all the products and a frontend function to display them using a product card component.
+
+Milestone 12
+
+Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
