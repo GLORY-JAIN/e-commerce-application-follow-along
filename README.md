@@ -165,3 +165,11 @@ In this milestone, we learned how to display products dynamically on the home pa
 Milestone 12
 
 Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
+
+Milestone 13 - Updating the product
+This Express.js route updates a product in a MongoDB database, handling file uploads using multer. It validates input data, updates product details (name, description, category, tags, price, stock, email), and modifies images if new ones are uploaded. Errors are handled with appropriate status codes, ensuring robust error management and smooth database updates.
+
+Milestone 14 - Delete the product
+This e-commerce application is built with Node.js, Express, MongoDB, and React, providing full-stack functionality for product management. It includes RESTful APIs for adding, updating, and deleting products. The /delete-product/:id endpoint allows secure product removal. Error handling ensures reliability. Ideal for scalable and dynamic online stores.
+
+
