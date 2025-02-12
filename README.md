@@ -176,3 +176,6 @@ This e-commerce application is built with Node.js, Express, MongoDB, and React, 
 Milestone 15 - Added Nav bar
 Added the nav component to all the pages and make the navigations to all this pages smooth and easy. Nav component with links to all pages: -Home -My-products -Add product -cart
 
+
+Milestone 16 - Added new page to display each product.
+Added add quantity and add to card button.
