@@ -179,3 +179,6 @@ Added the nav component to all the pages and make the navigations to all this pa
 
 Milestone 16 - Added new page to display each product.
 Added add quantity and add to card button.
+
+Milestone 17 - Updated the user schema to store cart products .
+Created an end point to receive the product details and store in database.
