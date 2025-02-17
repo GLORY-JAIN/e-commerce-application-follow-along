@@ -162,9 +162,7 @@ In this milestone, we learned how to display products dynamically on the home pa
 
 
 
-Milestone 12
-
-Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
+Milestone 12 - Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
 
 Milestone 13 - Updating the product
 This Express.js route updates a product in a MongoDB database, handling file uploads using multer. It validates input data, updates product details (name, description, category, tags, price, stock, email), and modifies images if new ones are uploaded. Errors are handled with appropriate status codes, ensuring robust error management and smooth database updates.
@@ -182,3 +180,6 @@ Added add quantity and add to card button.
 
 Milestone 17 - Updated the user schema to store cart products .
 Created an end point to receive the product details and store in database.
+
+Milestone 18 - Created an endpoint to receive request from cart page.
+Created an backend endpoint to fetch all the products inside cart with user mail.
