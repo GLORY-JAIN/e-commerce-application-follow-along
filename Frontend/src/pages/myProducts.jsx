@@ -12,7 +12,7 @@ export default function MyProducts() {
         fetch(`http://localhost:3000/api/v2/product/my-products?email=${email}`)
             .then((res) => {
                 if (!res.ok) {
-                    throw new Error(HTTP error! status: ${res.status});
+                    throw new Error(`HTTP error! status: ${res.status}`);
                 }
                 return res.json();
             })
