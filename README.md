@@ -144,7 +144,7 @@ Dynamic Data: Set up the form to eventually save the product data and display it
 
 
 
-Milestone 10: Product Schema & Endpoint Creation
+### Milestone 10: Product Schema & Endpoint Creation
 
 In this milestone, I created a Mongoose schema to define the structure for storing product data in MongoDB. The schema includes fields like name, description, price, and image URL, with proper validation to ensure data integrity (e.g., required fields, correct data types).
 
@@ -155,33 +155,33 @@ Additionally, I explored optional features like creating admin roles for restric
 
 
 
-Milestone 11 🌟
+### Milestone 11 🌟
 
 In this milestone, we learned how to display products dynamically on the home page using data stored in MongoDB. We built an endpoint to fetch all the products and a frontend function to display them using a product card component.
 
 
 
 
-Milestone 12 - Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
+### Milestone 12 - Created an endpoint that will send data by filtering with my mail and send data from mongodb. It will receive data at frontend and will display that data dynamically using product card created earlier.
 
-Milestone 13 - Updating the product
+### Milestone 13 - Updating the product
 This Express.js route updates a product in a MongoDB database, handling file uploads using multer. It validates input data, updates product details (name, description, category, tags, price, stock, email), and modifies images if new ones are uploaded. Errors are handled with appropriate status codes, ensuring robust error management and smooth database updates.
 
-Milestone 14 - Delete the product
+### Milestone 14 - Delete the product
 This e-commerce application is built with Node.js, Express, MongoDB, and React, providing full-stack functionality for product management. It includes RESTful APIs for adding, updating, and deleting products. The /delete-product/:id endpoint allows secure product removal. Error handling ensures reliability. Ideal for scalable and dynamic online stores.
 
 
-Milestone 15 - Added Nav bar
+### Milestone 15 - Added Nav bar
 Added the nav component to all the pages and make the navigations to all this pages smooth and easy. Nav component with links to all pages: -Home -My-products -Add product -cart
 
 
-Milestone 16 - Added new page to display each product.
+### Milestone 16 - Added new page to display each product.
 Added add quantity and add to card button.
 
-Milestone 17 - Updated the user schema to store cart products .
+### Milestone 17 - Updated the user schema to store cart products .
 Created an end point to receive the product details and store in database.
 
-Milestone 18 - Created an endpoint to receive request from cart page.
+### Milestone 18 - Created an endpoint to receive request from cart page.
 Created an backend endpoint to fetch all the products inside cart with user mail.
 
 ### Milestone 19- Cart Page with Quantity Update
@@ -202,3 +202,18 @@ Created an backend endpoint to fetch all the products inside cart with user mail
    -Display Profile Photo, Name, Email, and Addresses on the profile page.
 
    -Ensure Secure Data Handling while fetching and sending user information.
+
+### Milestone 21: Address Form
+Created a frontend form to collect address details.
+
+Captured Country, City, Address1, Address2, Zip Code, Address Type.
+
+Implement form validation and dropdowns for selection.
+
+📌 Implementation
+
+Create AddressForm.jsx component.
+
+Use controlled inputs with validation.
+
+Style and structure for a user-friendly UI.
