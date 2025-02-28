@@ -27,7 +27,7 @@ Frontend with React: I will use React to build dynamic, user-friendly interfaces
 
 
 
-Milestone 2:
+### Milestone 2:
 
 Key Achievements
 
@@ -41,7 +41,7 @@ Login Page Development: Designed and built a functional Login Page with form val
 
 
 
-Milestone 3:
+### Milestone 3:
 
 In this milestone, we focused on building the foundation for the backend of our e-commerce application. The key objectives were to set up a server, connect it to a database, and establish a solid folder structure to keep our code organized.
 
@@ -57,7 +57,7 @@ Error Handling: Basic error-handling mechanisms were added to ensure that the se
 
 
 
-Milestone 4:
+### Milestone 4:
 
 In Milestone 4, we focused on enhancing the backend by creating a User Model, setting up a User Controller, and enabling file uploads using Multer. These features are key to handling user data and media effectively in the e-commerce app.
 
@@ -71,7 +71,7 @@ File Uploads with Multer: We integrated Multer to enable file uploads, allowing 
 
 
 
-Milestone 5:
+### Milestone 5:
 
 In Milestone 5, we focused on building the Sign-Up Page for the frontend, where users can register by entering their details. This page includes essential fields such as name, email, and password, providing a clean and user-friendly interface for registration.
 
@@ -85,7 +85,7 @@ UI/UX Enhancements: The design is simple yet effective, allowing users to smooth
 
 
 
-Milestone 6:
+### Milestone 6:
 
 In this milestone, we focused on building the foundation for the backend of our e-commerce application. The key objectives were to set up a server, connect it to a database, and establish a solid folder structure to keep our code organized.
 
@@ -101,7 +101,7 @@ Error Handling: Basic error-handling mechanisms were added to ensure that the se
 
 
 
-Milestone 7: Login Endpoint 📝
+### Milestone 7: Login Endpoint 📝
 
 Create a login endpoint to authenticate users. Users provide their email/username and password. The backend compares the entered password (hashed with bcrypt) to the stored password. If valid, a JWT token is generated and returned for subsequent requests.
 
@@ -114,7 +114,7 @@ Response: Success with a token, or error for invalid credentials.
 
 
 
-Milestone 8: Product Card Component 🌟
+### Milestone 8: Product Card Component 🌟
 
 In this milestone, we focus on creating a reusable product card component for your e-commerce app. The goal is to showcase product details (e.g., name, image, price) in a visually appealing way, making it easy for users to browse products.
 
@@ -127,7 +127,7 @@ Steps Completed:
 
 
 
-Milestone 9: Product Input Form 🌟
+### Milestone 9: Product Input Form 🌟
 
 In this milestone, we focused on creating a frontend form for adding products to your e-commerce app. This form allows users to input detailed information about products, including multiple images, which will eventually be saved to a database and displayed on the product homepage.
 
@@ -217,3 +217,12 @@ Create AddressForm.jsx component.
 Use controlled inputs with validation.
 
 Style and structure for a user-friendly UI.
+
+### Milestone 22: Store Address in User Profile
+Added a new POST /api/user/address endpoint.
+
+Stores user address in the database under the User model.
+
+Validates user existence before saving the address.
+
+Handles errors like missing data, invalid user, and server issues.
