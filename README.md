@@ -226,3 +226,12 @@ Stores user address in the database under the User model.
 Validates user existence before saving the address.
 
 Handles errors like missing data, invalid user, and server issues.
+
+### Milestone 23 🎯
+In this milestone:
+
+✅ Add a "Place Order" button inside the cart.
+
+✅ Create a "Select Address" page to display all saved addresses and allow users to choose a delivery address.
+
+✅ Write a Mongoose schema to store order details.
