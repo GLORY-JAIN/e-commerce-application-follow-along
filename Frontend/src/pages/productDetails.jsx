@@ -11,7 +11,7 @@ export default function ProductDetails() {
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
 	const [quantity, setQuantity] = useState(1); // 1. Initialize quantity state
-    const email = "jainglory92@gamil.com";
+    const email = "jainglory92@gmail.com";
 
 	useEffect(() => {
 		const fetchProduct = async () => {
@@ -48,7 +48,7 @@ export default function ProductDetails() {
 	const addtocart = async () => {
 		try {
 			const response = await axios.post(
-				"http://localhost:8000/api/v2/product/cart",
+				"http://localhost:3000/api/v2/product/cart",
 				{
 					userId: email,
 					productId: id,

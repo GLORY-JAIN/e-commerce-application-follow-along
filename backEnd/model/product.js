@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema(
       required: [true, "Please provide the product category"],
     },
     tags: {
-      type: String, // Array of tags
+      type: [String], // Array of tags
       default: [],
     },
     price: {
@@ -39,11 +39,11 @@ const productSchema = new mongoose.Schema(
       type: Date,
       default: Date.now, // Automatically set the creation date
     },
-  
+    
   },
   {
     timestamps: true,
   }
-); 
+);
 
 module.exports = mongoose.model("Product", productSchema);
