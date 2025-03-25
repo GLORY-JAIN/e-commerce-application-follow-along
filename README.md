@@ -291,3 +291,7 @@ In this milestone, we focused on adding a cancel order feature to the my-orders 
 Implemented online payment using PayPal API using the client key you created earlier.
 
 Downloaded NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc.
+
+# Milestone 31: Implementing Global State Management with Redux
+
+Welcome to Milestone 31! 🎯 In this milestone, we focus on implementing global state management using Redux in a React application. By the end of this milestone, you will learn how to use Redux for managing global states like storing a user's email across various components.
