@@ -295,3 +295,7 @@ Downloaded NPM package called react-paypal-js that will provide an component cal
 # Milestone 31: Implementing Global State Management with Redux
 
 Welcome to Milestone 31! 🎯 In this milestone, we focus on implementing global state management using Redux in a React application. By the end of this milestone, you will learn how to use Redux for managing global states like storing a user's email across various components.
+
+
+### Milestone 32 🎯
+Implemented Redux for global state management, enabling seamless state access across all pages.
