@@ -299,3 +299,7 @@ Welcome to Milestone 31! 🎯 In this milestone, we focus on implementing global
 
 ### Milestone 32 🎯
 Implemented Redux for global state management, enabling seamless state access across all pages.
+
+
+### Milestone 33 🎯
+Implemented JWT authentication with tokens stored in cookies for secure user sessions.
