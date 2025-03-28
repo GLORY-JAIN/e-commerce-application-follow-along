@@ -307,3 +307,7 @@ Implemented JWT authentication with tokens stored in cookies for secure user s
 # Milestone 34: Implementing Authentication with JWT
 
 Milestone 34 covers JWT validation using cookies for secure authentication. The token is extracted from the browser cookie, sent to the server, and verified via middleware. If valid, access is granted; otherwise, it is denied. This ensures only logged-in users can access protected pages, strengthening security and session management.
+
+# Milestone 35: Implementing Protected Routes with JWT
+
+Milestone 35 focuses on deploying your project. You'll deploy the backend using a hosting service, obtain the deployment link, and update the frontend to use it instead of localhost. Then, you'll deploy the frontend and ensure both parts work seamlessly. By the end, you'll have a fully deployed and functional website.
