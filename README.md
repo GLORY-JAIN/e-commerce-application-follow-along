@@ -303,3 +303,7 @@ Implemented Redux for global state management, enabling seamless state access ac
 
 ### Milestone 33 🎯
 Implemented JWT authentication with tokens stored in cookies for secure user sessions.
+
+# Milestone 34: Implementing Authentication with JWT
+
+Milestone 34 covers JWT validation using cookies for secure authentication. The token is extracted from the browser cookie, sent to the server, and verified via middleware. If valid, access is granted; otherwise, it is denied. This ensures only logged-in users can access protected pages, strengthening security and session management.

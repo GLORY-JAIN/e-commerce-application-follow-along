@@ -1,32 +1,30 @@
+// Cart.jsx
 import React, { useState, useEffect } from 'react';
 import CartProduct from '../components/auth/CartProduct';
-import NavBar from "../components/auth/nav";
-import { useNavigate } from 'react-router-dom';
+import NavBar from '../components/auth/nav';
+import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 import { useSelector } from 'react-redux'; // Import useSelector from react-redux
+import axios from '../axiosConfig';
+
 const Cart = () => {
+
   const [products, setProducts] = useState([]);
   const navigate = useNavigate(); // Initialize navigate
+
   // Get the email from Redux state
   const email = useSelector((state) => state.user.email);
   useEffect(() => {
-     // Only fetch if email is available
-     if (!email) return;
-  
-     fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${email}`)
+    // Only fetch if email is available
+    if (!email) return;
+ 
+    axios.get(`/api/v2/product/cartproducts?email=${email}`)
       .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => {
-        setProducts(data.cart.map(product => ({ quantity: product['quantity'], ...product['productId'] })));
-        console.log("Products fetched:", data.cart);
+        setProducts(res.data.cart.map(product => ({quantity: product.quantity,...product.productId, })));
+        console.log("Products fetched:", res.data.cart);
       })
       .catch((err) => {
         console.error("Error fetching products:", err);
       });
-
   }, [email]);
 
       const handlePlaceOrder = () => {
@@ -35,7 +33,7 @@ const Cart = () => {
 
       return (
         <div className='w-full h-screen'>
-         <NavBar />
+          <NavBar />
           <div className='w-full h-full justify-center items-center flex'>
             <div className='w-full md:w-4/5 lg:w-4/6 2xl:w-2/3 h-full border-l border-r border-neutral-300 flex flex-col'>
               <div className='w-full h-16 flex items-center justify-center'>
